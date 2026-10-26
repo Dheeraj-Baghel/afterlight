@@ -7,4 +7,5 @@ out/
 test-results/
 playwright-report/
 artifacts/runtime/
-.DS_Store.vercel/
+.DS_Store
+.vercel/
