@@ -4,7 +4,7 @@
 
 A complete, standalone Next.js application: an independent digital observatory with a progressively enhanced 3D atlas, eight planetary field guides, a comparison workspace, eight mission stories, and a browser-local expedition journal. Ink-blue observation spaces meet a warm-paper editorial system. No account, backend, API key or paid service is required.
 
-**Local preview:** [http://127.0.0.1:4324](http://127.0.0.1:4324)
+**Live site:** [https://afterlight-softtech10.vercel.app](https://afterlight-softtech10.vercel.app) · **Source (private):** [Dheeraj-Baghel/afterlight](https://github.com/Dheeraj-Baghel/afterlight) · **Local preview:** [http://127.0.0.1:4324](http://127.0.0.1:4324). See [deployment notes](DEPLOYMENT.md).
 
 The brand and personal expeditions are fictional. Planetary facts and historical mission milestones have primary-source references. Visual lighting, colors, ring proportions and system distances are clearly illustrative. AFTERLIGHT does not offer space travel or imply agency endorsement.
 
@@ -24,7 +24,7 @@ npm run build
 npm run start
 ```
 
-No environment file is needed. [The environment example](.env.example) documents the optional `SITE_URL`, which defaults to the local preview. The public website has **not** been deployed. Setting a public URL is not deployment authorization. The local robots configuration blocks indexing; a real authorized public origin enables ordinary crawling except the personal expedition route.
+No environment file is needed. [The environment example](.env.example) documents the optional `SITE_URL`, which defaults to the local preview. With the user's authorization the site is deployed on Vercel, where production sets `SITE_URL=https://afterlight-softtech10.vercel.app`. The local robots configuration blocks indexing; the public origin enables ordinary crawling except the personal expedition route.
 
 ## What is included
 
