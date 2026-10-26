@@ -1,0 +1,132 @@
+{
+  "createdAt": "2026-10-18T04:18:46.168Z",
+  "app": "AFTERLIGHT",
+  "url": "http://127.0.0.1:4324",
+  "mode": "production",
+  "deployed": false,
+  "node": "v24.13.0",
+  "lockfileSha256": "e53b64e9094a72b0cb52d4199c34c873cb5d10e3ada1c3e0b8362280a0a9cff2",
+  "gates": {
+    "clean-install": 0,
+    "lint": 0,
+    "typecheck": 0,
+    "unit": 0,
+    "build": 0,
+    "e2e-full": 0,
+    "site-audit": 0,
+    "performance": 0,
+    "sources": 0,
+    "responsive-capture": 0
+  },
+  "unitTests": 42,
+  "browserTests": {
+    "startTime": "2026-10-18T04:15:00.134Z",
+    "duration": 69895.76800000001,
+    "expected": 32,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "axeSurfaces": 9,
+  "axeViolations": 0,
+  "routeVisits": 23,
+  "internalUrls": 61,
+  "normalPageErrors": 0,
+  "normalFailedRequests": 0,
+  "sourceUrlsChecked": 25,
+  "sourceHttpStatuses": [
+    200
+  ],
+  "productionAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "fullAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 5,
+    "critical": 0,
+    "total": 5
+  },
+  "labProfile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 1,
+    "cpuThrottle": 4,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "latencyMs": 150,
+    "observationAfterLoadMs": 3500,
+    "repeats": 3
+  },
+  "labSummary": [
+    {
+      "route": "/",
+      "run": 1,
+      "lcpMs": 836,
+      "cls": 0.000038978270086026825,
+      "scriptTransferBytes": 293935,
+      "imageTransferBytes": 34798,
+      "rendererChunkCount": 0
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "lcpMs": 836,
+      "cls": 0.000038978270086026825,
+      "scriptTransferBytes": 293935,
+      "imageTransferBytes": 34798,
+      "rendererChunkCount": 0
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "lcpMs": 840,
+      "cls": 0.000038978270086026825,
+      "scriptTransferBytes": 293935,
+      "imageTransferBytes": 34798,
+      "rendererChunkCount": 0
+    },
+    {
+      "route": "/atlas?world=saturn",
+      "run": 1,
+      "lcpMs": 824,
+      "cls": 0.0005047011900606973,
+      "scriptTransferBytes": 520939,
+      "imageTransferBytes": 47668,
+      "rendererChunkCount": 1
+    },
+    {
+      "route": "/compare?worlds=earth,mars,neptune",
+      "run": 1,
+      "lcpMs": 836,
+      "cls": 0.0007077195798266333,
+      "scriptTransferBytes": 264555,
+      "imageTransferBytes": 12012,
+      "rendererChunkCount": 0
+    },
+    {
+      "route": "/missions/cassini-huygens",
+      "run": 1,
+      "lcpMs": 844,
+      "cls": 0.0003883505223550511,
+      "scriptTransferBytes": 253144,
+      "imageTransferBytes": 6145,
+      "rendererChunkCount": 0
+    }
+  ],
+  "fieldINP": null,
+  "knownLimits": [
+    "Chrome on macOS only; no Safari/Firefox/real-phone GPU or assistive-technology certification.",
+    "200%-equivalent viewport reflow tested, not native browser chrome zoom UI.",
+    "Five development-only lint-chain high-severity audit entries remain.",
+    "No deployment or real-user field metrics."
+  ]
+}

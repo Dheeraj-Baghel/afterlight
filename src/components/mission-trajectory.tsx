@@ -1,0 +1,8 @@
+export function MissionTrajectory({ variant = "cassini", className = "" }: { variant?: "cassini" | "voyager" | "mars"; className?: string }) {
+  const labels = variant === "voyager" ? ["EARTH", "JUPITER", "SATURN", "URANUS", "NEPTUNE"] : variant === "mars" ? ["EARTH", "CRUISE", "JEZERO", "EXPLORATION"] : ["EARTH", "VENUS", "JUPITER", "SATURN"];
+  return <figure className={`trajectory ${className}`}><svg viewBox="0 0 700 240" role="img" aria-label={`${labels.join(" to ")}. Schematic encounter sequence, not a calculated flight path.`}>
+    <path className="trajectory-base" d="M40 180 C140 180 115 45 245 60 S390 220 470 118 S600 40 660 60" />
+    <path data-trajectory-line className="trajectory-active" strokeDasharray="500" d="M40 180 C140 180 115 45 245 60 S390 220 470 118 S600 40 660 60" />
+    {labels.map((label, i) => { const positions = labels.length === 5 ? [[40,180],[200,65],[355,125],[515,80],[660,60]] : [[40,180],[245,60],[470,118],[660,60]]; const [x,y] = positions[i]; return <g key={label}><circle cx={x} cy={y} r={i === labels.length-1 ? 13 : 5} fill={i === labels.length-1 ? "#e89159" : "#eeeae1"} /><circle cx={x} cy={y} r={i === labels.length-1 ? 24 : 14} fill="none" stroke="currentColor" strokeOpacity=".3" /><text x={Math.min(635, Math.max(50,x))} y={y+40} textAnchor="middle">{label}</text></g>; })}
+  </svg><figcaption className="figure-note">Encounter sequence · diagram is schematic, not a physical trajectory</figcaption></figure>;
+}

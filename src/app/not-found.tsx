@@ -1,0 +1,5 @@
+import Link from "next/link";
+import { PlanetImage } from "@/components/planet-image";
+export default function NotFound() {
+  return <main id="main" className="dark-section"><div className="page-shell py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center"><div><p className="eyebrow text-orange">404 / BEYOND THE EDGE OF THIS ATLAS</p><h1 className="text-6xl md:text-8xl mt-6">An uncharted<br /><em>address.</em></h1><p className="text-steel mt-7 max-w-md">We could not find that world or mission. The solar system is still here — start again with the atlas, or return to familiar ground.</p><div className="flex flex-wrap gap-3 mt-8"><Link className="btn-primary" href="/atlas">Explore the atlas</Link><Link className="btn-secondary" href="/">Return home</Link></div></div><PlanetImage id="neptune" priority /></div></main>;
+}

@@ -1,0 +1,22 @@
+import { describe, it, expect } from "vitest";
+import { emptyExpedition, parseExpedition, serializeExpedition, moveDestination, setNote, toggleDestination, mergeExpedition, MAX_IMPORT_BYTES, MAX_NOTE_LENGTH, type Expedition } from "@/lib/expedition";
+const journal: Expedition = { version:1,destinations:[{planetId:"earth",note:"Home."},{planetId:"mars",note:"Read the delta."},{planetId:"neptune",note:"Why these winds?"}] };
+describe("portable expedition schema", () => {
+  it("round-trips order and exact Unicode/newline notes", () => { const input: Expedition={version:1,destinations:[{planetId:"saturn",note:"Rings — why?\nAnd Titan? 🪐"}]}; expect(parseExpedition(serializeExpedition(input))).toEqual({ok:true,data:input}); });
+  it("accepts the deliberate empty expedition", () => expect(parseExpedition(serializeExpedition(emptyExpedition()))).toEqual({ok:true,data:emptyExpedition()}));
+  it.each(["{broken", "null", "[]", "3", '"hello"'])("rejects malformed or non-object input: %s", text => expect(parseExpedition(text).ok).toBe(false));
+  it("rejects unsupported versions without coercion", () => { for(const version of [2,0,"1",null]) expect(parseExpedition(JSON.stringify({version,destinations:[]})).ok).toBe(false); });
+  it("rejects unknown planet ids", () => { const result=parseExpedition('{"version":1,"destinations":[{"planetId":"pluto","note":""}]}'); expect(result.ok).toBe(false); if(!result.ok) expect(result.error).toMatch(/unknown planet/); });
+  it("rejects duplicate worlds", () => expect(parseExpedition(JSON.stringify({version:1,destinations:[journal.destinations[0],journal.destinations[0]]})).ok).toBe(false));
+  it("rejects oversize imports by UTF-8 bytes", () => { const result=parseExpedition(" ".repeat(MAX_IMPORT_BYTES+1)); expect(result.ok).toBe(false); if(!result.ok) expect(result.error).toMatch(/32 KB/); expect(parseExpedition("🪐".repeat(MAX_IMPORT_BYTES/4+1)).ok).toBe(false); });
+  it("rejects oversized and non-text notes", () => { for(const note of ["x".repeat(MAX_NOTE_LENGTH+1),7,null]) expect(parseExpedition(JSON.stringify({version:1,destinations:[{planetId:"mars",note}]})).ok).toBe(false); });
+  it("does not evaluate markup and explicitly selects fields", () => { const result=parseExpedition('{"version":1,"__proto__":{"polluted":true},"destinations":[{"planetId":"mars","note":"<script>alert(1)</script>","extra":42}]}'); expect(result).toEqual({ok:true,data:{version:1,destinations:[{planetId:"mars",note:"<script>alert(1)</script>"}]}}); expect({}).not.toHaveProperty("polluted"); });
+  it("rejects missing destination lists and too many worlds", () => { expect(parseExpedition('{"version":1}').ok).toBe(false); expect(parseExpedition(JSON.stringify({version:1,destinations:Array(9).fill({planetId:"mars",note:""})})).ok).toBe(false); });
+});
+describe("journal operations", () => {
+  it("moves a world without separating its note", () => { const moved=moveDestination(journal,"neptune",-1); expect(moved.destinations.map(d=>d.planetId)).toEqual(["earth","neptune","mars"]); expect(moved.destinations[1].note).toBe("Why these winds?"); expect(journal.destinations[1].planetId).toBe("mars"); });
+  it("keeps boundary moves safe and stable", () => { expect(moveDestination(journal,"earth",-1)).toBe(journal); expect(moveDestination(journal,"neptune",1)).toBe(journal); expect(moveDestination(journal,"saturn",1)).toBe(journal); });
+  it("updates one note and enforces the input limit", () => { const changed=setNote(journal,"mars","x".repeat(900)); expect(changed.destinations[1].note.length).toBe(600); expect(changed.destinations[0].note).toBe("Home."); });
+  it("toggles destinations without duplicate state", () => { const added=toggleDestination(journal,"saturn"); expect(added.destinations.at(-1)).toEqual({planetId:"saturn",note:""}); expect(toggleDestination(added,"saturn")).toEqual(journal); });
+  it("merge preserves existing notes/order and appends new worlds in file order", () => { const incoming: Expedition={version:1,destinations:[{planetId:"mars",note:"Do not overwrite"},{planetId:"saturn",note:"Rings"},{planetId:"venus",note:"Clouds"}]}; const merged=mergeExpedition(journal,incoming); expect(merged.destinations.map(d=>d.planetId)).toEqual(["earth","mars","neptune","saturn","venus"]); expect(merged.destinations[1].note).toBe("Read the delta."); expect(merged.destinations[3].note).toBe("Rings"); });
+});

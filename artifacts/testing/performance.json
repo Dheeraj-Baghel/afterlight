@@ -1,0 +1,1727 @@
+{
+  "measuredAt": "2026-10-18T04:16:53.065Z",
+  "mode": "Next.js production local server, warm server/image optimizer, cold independent browser contexts, CDP cache disabled",
+  "browser": "155.0.8059.80",
+  "hardware": {
+    "cpu": "Apple M1",
+    "logicalCpus": 8,
+    "totalMemoryBytes": 8589934592,
+    "platform": "darwin",
+    "kernel": "27.2.0",
+    "osVersion": "27.2"
+  },
+  "profile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 1,
+    "cpuThrottle": 4,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "latencyMs": 150,
+    "observationAfterLoadMs": 3500,
+    "repeats": 3
+  },
+  "rendererChunks": [
+    "4171jmylz4ov4.js"
+  ],
+  "results": [
+    {
+      "route": "/",
+      "run": 1,
+      "http": 200,
+      "lcpMs": 836,
+      "lcpElement": "IMG.planet-image ",
+      "cls": 0.000038978270086026825,
+      "longTasks": [
+        99,
+        76
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2163.2000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 879.2000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=640&q=75",
+          "type": "link",
+          "transferBytes": 10781,
+          "encodedBytes": 10481,
+          "durationMs": 479.80000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 517.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 885
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 225.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 607.8000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 1154.2000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1207.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1566.7000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1745.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1845.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2308.7000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1755.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2422.099999997765
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 1919.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 2204.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 2031.5999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 781.4000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmercury.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3986,
+          "encodedBytes": 3686,
+          "durationMs": 1543.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fvenus.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3191,
+          "encodedBytes": 2891,
+          "durationMs": 1617.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fearth.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4542,
+          "encodedBytes": 4242,
+          "durationMs": 1755.1000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmars.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4022,
+          "encodedBytes": 3722,
+          "durationMs": 1761.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fjupiter.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4128,
+          "encodedBytes": 3828,
+          "durationMs": 1798.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3527,
+          "encodedBytes": 3227,
+          "durationMs": 1812
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 161.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0-w4ykwsjgv90.js",
+          "type": "script",
+          "transferBytes": 27419,
+          "encodedBytes": 27119,
+          "durationMs": 324.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 165
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 171.29999999701977
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 490,
+          "encodedBytes": 190,
+          "durationMs": 176.40000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 230.90000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=gGp1_efbx13tOa2u",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 211.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=PROjtIA1UCtBvC6S",
+          "type": "fetch",
+          "transferBytes": 2180,
+          "encodedBytes": 1880,
+          "durationMs": 191.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3izskjgfkat9p.js",
+          "type": "script",
+          "transferBytes": 515,
+          "encodedBytes": 215,
+          "durationMs": 162
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3gt-cbdralhfa.js",
+          "type": "script",
+          "transferBytes": 19440,
+          "encodedBytes": 19140,
+          "durationMs": 394.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 480,
+          "encodedBytes": 180,
+          "durationMs": 172.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 261.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 357.3999999985099
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 5.800000000745058,
+        "domContentLoadedMs": 707.4000000022352,
+        "loadMs": 2628.60000000149
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 293935,
+        "imageTransferBytes": 34798,
+        "allResourceTransferBytes": 521268
+      },
+      "rendererChunksRequested": [],
+      "interaction": null,
+      "errors": []
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "http": 200,
+      "lcpMs": 836,
+      "lcpElement": "IMG.planet-image ",
+      "cls": 0.000038978270086026825,
+      "longTasks": [
+        97,
+        76
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2164.900000002235
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 867.3000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=640&q=75",
+          "type": "link",
+          "transferBytes": 10781,
+          "encodedBytes": 10481,
+          "durationMs": 483
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 895.0999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 228.30000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 522.3000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 609.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1850.2000000029802
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2313.900000002235
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 1143.1000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1216.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1553.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1750.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1757.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 1929.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2425.60000000149
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 2033.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 2208.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 786.5999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmercury.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3986,
+          "encodedBytes": 3686,
+          "durationMs": 1555
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fvenus.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3191,
+          "encodedBytes": 2891,
+          "durationMs": 1619.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fearth.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4542,
+          "encodedBytes": 4242,
+          "durationMs": 1740
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmars.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4022,
+          "encodedBytes": 3722,
+          "durationMs": 1777.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fjupiter.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4128,
+          "encodedBytes": 3828,
+          "durationMs": 1801.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3527,
+          "encodedBytes": 3227,
+          "durationMs": 1817.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 157.90000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0-w4ykwsjgv90.js",
+          "type": "script",
+          "transferBytes": 27419,
+          "encodedBytes": 27119,
+          "durationMs": 322.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 158.10000000149012
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 164.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 490,
+          "encodedBytes": 190,
+          "durationMs": 173.10000000149012
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 227.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=gGp1_efbx13tOa2u",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 207
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=PROjtIA1UCtBvC6S",
+          "type": "fetch",
+          "transferBytes": 2178,
+          "encodedBytes": 1878,
+          "durationMs": 189.80000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3izskjgfkat9p.js",
+          "type": "script",
+          "transferBytes": 515,
+          "encodedBytes": 215,
+          "durationMs": 161.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3gt-cbdralhfa.js",
+          "type": "script",
+          "transferBytes": 19440,
+          "encodedBytes": 19140,
+          "durationMs": 394.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 480,
+          "encodedBytes": 180,
+          "durationMs": 172.89999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 265.0999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 362.19999999925494
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 7.400000002235174,
+        "domContentLoadedMs": 713.2000000029802,
+        "loadMs": 2680.800000000745
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 293935,
+        "imageTransferBytes": 34798,
+        "allResourceTransferBytes": 521266
+      },
+      "rendererChunksRequested": [],
+      "interaction": null,
+      "errors": []
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "http": 200,
+      "lcpMs": 840,
+      "lcpElement": "IMG.planet-image ",
+      "cls": 0.000038978270086026825,
+      "longTasks": [
+        100,
+        76
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2156
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=640&q=75",
+          "type": "link",
+          "transferBytes": 10781,
+          "encodedBytes": 10481,
+          "durationMs": 476
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 872.1000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 895.1000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 513.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 220.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 600.7999999970198
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2298.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 1141.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1217.4000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1846.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1546.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1755.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2416.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1740
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 1920.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 2033.0999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 2205.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 787.5999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmercury.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3986,
+          "encodedBytes": 3686,
+          "durationMs": 1549.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fvenus.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3191,
+          "encodedBytes": 2891,
+          "durationMs": 1626.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fearth.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4542,
+          "encodedBytes": 4242,
+          "durationMs": 1743.9000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmars.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4022,
+          "encodedBytes": 3722,
+          "durationMs": 1767.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fjupiter.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4128,
+          "encodedBytes": 3828,
+          "durationMs": 1798.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 3527,
+          "encodedBytes": 3227,
+          "durationMs": 1811.7999999970198
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 159.39999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0-w4ykwsjgv90.js",
+          "type": "script",
+          "transferBytes": 27419,
+          "encodedBytes": 27119,
+          "durationMs": 326
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 162.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 169.10000000149012
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 490,
+          "encodedBytes": 190,
+          "durationMs": 174.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 229.89999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=gGp1_efbx13tOa2u",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 210.89999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?world=saturn&_rsc=PROjtIA1UCtBvC6S",
+          "type": "fetch",
+          "transferBytes": 2178,
+          "encodedBytes": 1878,
+          "durationMs": 191.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3izskjgfkat9p.js",
+          "type": "script",
+          "transferBytes": 515,
+          "encodedBytes": 215,
+          "durationMs": 160.59999999776483
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3gt-cbdralhfa.js",
+          "type": "script",
+          "transferBytes": 19440,
+          "encodedBytes": 19140,
+          "durationMs": 392.9000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/atlas?_rsc=5CB68i4pnAekjehf",
+          "type": "fetch",
+          "transferBytes": 480,
+          "encodedBytes": 180,
+          "durationMs": 170.29999999701977
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 260.80000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 357.5
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 5.899999998509884,
+        "domContentLoadedMs": 711.8999999985099,
+        "loadMs": 2674.5
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 293935,
+        "imageTransferBytes": 34798,
+        "allResourceTransferBytes": 521266
+      },
+      "rendererChunksRequested": [],
+      "interaction": null,
+      "errors": []
+    },
+    {
+      "route": "/atlas?world=saturn",
+      "run": 1,
+      "http": 200,
+      "lcpMs": 824,
+      "lcpElement": "IMG.planet-image ",
+      "cls": 0.0005047011900606973,
+      "longTasks": [
+        70,
+        78,
+        143,
+        98,
+        75
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2177.7999999970198
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 893.0999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 909.3000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=384&q=75",
+          "type": "link",
+          "transferBytes": 5524,
+          "encodedBytes": 5224,
+          "durationMs": 307.79999999701977
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 474.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 218.40000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 593.8000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2227.10000000149
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 1154.5999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1224.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1559.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1763.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1815.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2400.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1748.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3izskjgfkat9p.js",
+          "type": "script",
+          "transferBytes": 515,
+          "encodedBytes": 215,
+          "durationMs": 1926.9000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3gt-cbdralhfa.js",
+          "type": "script",
+          "transferBytes": 19440,
+          "encodedBytes": 19140,
+          "durationMs": 2316.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 2114.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 2160.10000000149
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 855.3000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmercury.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1214,
+          "encodedBytes": 914,
+          "durationMs": 1695.1000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fvenus.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 1739.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fearth.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1368,
+          "encodedBytes": 1068,
+          "durationMs": 1749
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmars.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1287,
+          "encodedBytes": 987,
+          "durationMs": 1792.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Furanus.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1194,
+          "encodedBytes": 894,
+          "durationMs": 1869.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fjupiter.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1275,
+          "encodedBytes": 975,
+          "durationMs": 1876
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fneptune.webp&w=64&q=75",
+          "type": "img",
+          "transferBytes": 1187,
+          "encodedBytes": 887,
+          "durationMs": 1898.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 167.19999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=b8XkCp5PFWRUQVxu",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 162.80000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=b8XkCp5PFWRUQVxu",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 170.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/4171jmylz4ov4.js",
+          "type": "script",
+          "transferBytes": 254423,
+          "encodedBytes": 254123,
+          "durationMs": 1652.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=3qsnAEW2RXycWWpn",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 240.90000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=7VhEK-IsUw8wZUUU",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 213
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 388.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 171
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 357.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/textures/saturn-rings.webp",
+          "type": "img",
+          "transferBytes": 8788,
+          "encodedBytes": 8488,
+          "durationMs": 247
+        },
+        {
+          "name": "http://127.0.0.1:4324/textures/saturn.webp",
+          "type": "img",
+          "transferBytes": 23990,
+          "encodedBytes": 23690,
+          "durationMs": 328.80000000074506
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 14.899999998509884,
+        "domContentLoadedMs": 673.5999999977648,
+        "loadMs": 2613.099999997765
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 520939,
+        "imageTransferBytes": 47668,
+        "allResourceTransferBytes": 757992
+      },
+      "rendererChunksRequested": [
+        "http://127.0.0.1:4324/_next/static/chunks/4171jmylz4ov4.js"
+      ],
+      "interaction": {
+        "automationClickToVisibleHeadingMs": 218.24575000000186,
+        "note": "Includes Playwright transport and actionability overhead, not field INP."
+      },
+      "errors": []
+    },
+    {
+      "route": "/compare?worlds=earth,mars,neptune",
+      "run": 1,
+      "http": 200,
+      "lcpMs": 836,
+      "lcpElement": "H1.",
+      "cls": 0.0007077195798266333,
+      "longTasks": [
+        68,
+        76
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2157.10000000149
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 905.6999999992549
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 910.1999999992549
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 490.79999999701977
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 190.70000000298023
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 407.20000000298023
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2132.900000002235
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 773.8000000007451
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1764.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1216.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1344.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1704.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1749
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2378.10000000149
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 1936.5999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 2018
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3ktw2jtjrarip.js",
+          "type": "script",
+          "transferBytes": 4361,
+          "encodedBytes": 4061,
+          "durationMs": 2064.2999999970198
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2k5blcjv9cecd.js",
+          "type": "script",
+          "transferBytes": 13633,
+          "encodedBytes": 13333,
+          "durationMs": 2325.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 1006
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fearth.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4542,
+          "encodedBytes": 4242,
+          "durationMs": 1630.0999999977648
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fmars.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 4022,
+          "encodedBytes": 3722,
+          "durationMs": 1666.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fneptune.webp&w=256&q=75",
+          "type": "img",
+          "transferBytes": 2827,
+          "encodedBytes": 2527,
+          "durationMs": 1718.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 167.40000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=1SfzXOvHUThkSklk",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 158.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=1SfzXOvHUThkSklk",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 166.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=Yi3lvI4b2wa2Kium",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 219.39999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=9G73ZJSuw229ha2R",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 198.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 311.30000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 163.10000000149012
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 288.4000000022352
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 32.70000000298023,
+        "domContentLoadedMs": 681.7000000029802,
+        "loadMs": 2583.400000002235
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 264555,
+        "imageTransferBytes": 12012,
+        "allResourceTransferBytes": 465952
+      },
+      "rendererChunksRequested": [],
+      "interaction": null,
+      "errors": []
+    },
+    {
+      "route": "/missions/cassini-huygens",
+      "run": 1,
+      "http": 200,
+      "lcpMs": 844,
+      "lcpElement": "IMG.planet-image ",
+      "cls": 0.0003883505223550511,
+      "longTasks": [
+        80
+      ],
+      "eventDurations": [],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/dm_sans-s.p.2icuowlcqfh6z.woff",
+          "type": "link",
+          "transferBytes": 84548,
+          "encodedBytes": 84248,
+          "durationMs": 2113.199999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif-s.p.1ejscy4u5nuj2.woff",
+          "type": "link",
+          "transferBytes": 28596,
+          "encodedBytes": 28296,
+          "durationMs": 876.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/instrument_serif_italic-s.p.0g-qdiyn-eo1l.woff",
+          "type": "link",
+          "transferBytes": 29832,
+          "encodedBytes": 29532,
+          "durationMs": 884.1999999992549
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/image?url=%2Fimages%2Fsaturn.webp&w=384&q=75",
+          "type": "link",
+          "transferBytes": 5524,
+          "encodedBytes": 5224,
+          "durationMs": 305.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0qf2h4e0g42hm.css",
+          "type": "link",
+          "transferBytes": 12645,
+          "encodedBytes": 12345,
+          "durationMs": 468.69999999925494
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2_xf99yxhp4od.js",
+          "type": "link",
+          "transferBytes": 650,
+          "encodedBytes": 350,
+          "durationMs": 229.20000000298023
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3koyarw6rgz08.js",
+          "type": "script",
+          "transferBytes": 7842,
+          "encodedBytes": 7542,
+          "durationMs": 605
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/0ciih05a3rs_7.js",
+          "type": "script",
+          "transferBytes": 73775,
+          "encodedBytes": 73475,
+          "durationMs": 2141.300000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "script",
+          "transferBytes": 4240,
+          "encodedBytes": 3940,
+          "durationMs": 1145.6000000014901
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/10h5ot77146f8.js",
+          "type": "script",
+          "transferBytes": 5527,
+          "encodedBytes": 5227,
+          "durationMs": 1195.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1niquz0q989ry.js",
+          "type": "script",
+          "transferBytes": 8905,
+          "encodedBytes": 8605,
+          "durationMs": 1563
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/148fxp3ob2q1l.js",
+          "type": "script",
+          "transferBytes": 46742,
+          "encodedBytes": 46442,
+          "durationMs": 1802.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3kuqxna4s0a-k.js",
+          "type": "script",
+          "transferBytes": 13536,
+          "encodedBytes": 13236,
+          "durationMs": 1736.699999999255
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/44mu6t8c5q3ad.js",
+          "type": "script",
+          "transferBytes": 1185,
+          "encodedBytes": 885,
+          "durationMs": 1749.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1bjkvktklltgw.js",
+          "type": "script",
+          "transferBytes": 1220,
+          "encodedBytes": 920,
+          "durationMs": 1937.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/1u6i5pplibwj4.js",
+          "type": "script",
+          "transferBytes": 6583,
+          "encodedBytes": 6283,
+          "durationMs": 2044
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/22bj3m-8d92fp.js",
+          "type": "script",
+          "transferBytes": 47251,
+          "encodedBytes": 46951,
+          "durationMs": 2223.800000000745
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/media/ibm_plex_mono-s.14-qm1f0kep-s.woff",
+          "type": "css",
+          "transferBytes": 23776,
+          "encodedBytes": 23476,
+          "durationMs": 855.8999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/icon.svg",
+          "type": "other",
+          "transferBytes": 621,
+          "encodedBytes": 321,
+          "durationMs": 160.59999999776483
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=_ueY9M_2Y-3XY-yp",
+          "type": "fetch",
+          "transferBytes": 574,
+          "encodedBytes": 274,
+          "durationMs": 162.80000000074506
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=_ueY9M_2Y-3XY-yp",
+          "type": "fetch",
+          "transferBytes": 594,
+          "encodedBytes": 294,
+          "durationMs": 170.89999999850988
+        },
+        {
+          "name": "http://127.0.0.1:4324/missions?_rsc=_ueY9M_2Y-3XY-yp",
+          "type": "fetch",
+          "transferBytes": 479,
+          "encodedBytes": 179,
+          "durationMs": 177
+        },
+        {
+          "name": "http://127.0.0.1:4324/?_rsc=q2SIcCJOSnP2EcUv",
+          "type": "fetch",
+          "transferBytes": 5875,
+          "encodedBytes": 5575,
+          "durationMs": 242.70000000298023
+        },
+        {
+          "name": "http://127.0.0.1:4324/expedition?_rsc=GxaaXtFyFS4A8jVS",
+          "type": "fetch",
+          "transferBytes": 2945,
+          "encodedBytes": 2645,
+          "durationMs": 223.5
+        },
+        {
+          "name": "http://127.0.0.1:4324/missions?_rsc=SD-FFb2VpECfo3fi",
+          "type": "fetch",
+          "transferBytes": 1446,
+          "encodedBytes": 1146,
+          "durationMs": 200
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3rdnw9bnmhg-w.js",
+          "type": "script",
+          "transferBytes": 5929,
+          "encodedBytes": 5629,
+          "durationMs": 265.4000000022352
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/3z0bqappocy4m.js",
+          "type": "script",
+          "transferBytes": 15994,
+          "encodedBytes": 15694,
+          "durationMs": 349.3999999985099
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/00r4gok5ljz4w.js",
+          "type": "script",
+          "transferBytes": 616,
+          "encodedBytes": 316,
+          "durationMs": 170.40000000223517
+        },
+        {
+          "name": "http://127.0.0.1:4324/_next/static/chunks/2nqf2kv_mkej_.js",
+          "type": "script",
+          "transferBytes": 13149,
+          "encodedBytes": 12849,
+          "durationMs": 324.5
+        }
+      ],
+      "navigation": {
+        "ttfbMs": 9.100000001490116,
+        "domContentLoadedMs": 658.9000000022352,
+        "loadMs": 2433.5
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "fonts": "loaded",
+      "totals": {
+        "scriptTransferBytes": 253144,
+        "imageTransferBytes": 6145,
+        "allResourceTransferBytes": 450599
+      },
+      "rendererChunksRequested": [],
+      "interaction": null,
+      "errors": []
+    }
+  ],
+  "fieldINP": null,
+  "limitations": [
+    "Laboratory observations on this Mac, not a mobile handset or field metric.",
+    "CDP simulates bandwidth/latency and CPU but not mobile GPU behavior.",
+    "A local origin and warm image optimizer do not represent geographic CDN latency.",
+    "Other existing workspace applications were not stopped; this is not an isolated benchmark host.",
+    "Initial resource totals can include Next.js link prefetch; scripts and complete request lists are retained."
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "verified": "2026-10-17",
+  "licenseEvidence": "https://www.solarsystemscope.com/textures/",
+  "visualizationNotice": "All planet portraits and scene maps are illustrative composites. Colors, lighting, rotation, ring proportions and system spacing are not calibrated observations or a physical simulation.",
+  "assets": [
+    {
+      "filename": "public/textures/saturn-rings.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_saturn_ring_alpha.png",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0)",
+      "modifications": "Converted PNG to lossless WebP.",
+      "verified": "2026-10-17",
+      "bytes": 8488,
+      "sha256": "637770627827cfd4839f73038b32e5d36749aa0883bf87e15752647137e53a6c"
+    },
+    {
+      "filename": "public/textures/mercury.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_mercury.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 260294,
+      "sha256": "0b889e24c47133f22e8443ddd7d34612f58068d494fcad5ca88db4b98d0e60e4"
+    },
+    {
+      "filename": "public/images/mercury.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_mercury.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 95718,
+      "sha256": "553dcaaf4912e6c92b6f2cbc6f544d31aca5e61ba07c2a558076e3def868f870"
+    },
+    {
+      "filename": "public/textures/venus.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_venus_atmosphere.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 27634,
+      "sha256": "263f874ea1886a3b6b5fe6be2375d8fb84a9a913210fd03af806a8ec90e3f252"
+    },
+    {
+      "filename": "public/images/venus.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_venus_atmosphere.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 19390,
+      "sha256": "19bda349cd172e4307246a4931e464867a3fd43ed525a113b0e4aec984ee7c7a"
+    },
+    {
+      "filename": "public/textures/earth.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 100884,
+      "sha256": "9c14b169d3c718e377864e3a80bff65941ee3872241ab64b15cadacbe84f3578"
+    },
+    {
+      "filename": "public/images/earth.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 50502,
+      "sha256": "20f6c3026e596dce7d182e264cf5dbeba31138ca6508a0a56f0aa5d608865c16"
+    },
+    {
+      "filename": "public/textures/mars.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_mars.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 151118,
+      "sha256": "a0661c0f486a55c3be5fc35e6fd9060b6dfe7660b8e67bcf90baa1358e01d14f"
+    },
+    {
+      "filename": "public/images/mars.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_mars.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 59000,
+      "sha256": "4d7b0200e18ddf5ea3f4d6f4c4167291184ae6c9cd3ab489428d455be8fa6765"
+    },
+    {
+      "filename": "public/textures/jupiter.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 91800,
+      "sha256": "616974447fc503dea301941b9863dcb491df0f44960299b68d8b89423eb5b632"
+    },
+    {
+      "filename": "public/images/jupiter.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 45732,
+      "sha256": "abdb46e88ac407f16bcd5b03a02cb566e269be45e56f31b5c79a8e748efce99e"
+    },
+    {
+      "filename": "public/images/saturn-globe.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_saturn.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Texture: Solar System Scope (CC BY 4.0). Illustrative projection: AFTERLIGHT.",
+      "modifications": "Orthographic, ring-free portrait for diameter diagrams; artistic lighting; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 17042,
+      "sha256": "cb759048edcd35c773129c9d5a28d4cf3c6503808e5e6eb688d93c09c52a5055"
+    },
+    {
+      "filename": "public/textures/saturn.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_saturn.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 23690,
+      "sha256": "ee10e404622bdf8869ff842ccddfde3286e5b7d3f983a1f9897a06594599f4a6"
+    },
+    {
+      "filename": "public/images/saturn.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_saturn.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 154818,
+      "sha256": "22772e44865c6f85107f2cd84cf52c2ae5ec7b56bc24998f287e264b609f7dec"
+    },
+    {
+      "filename": "public/textures/uranus.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_uranus.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 4972,
+      "sha256": "5d39277f2a7c9afce32743769da728b6a087b92fc31af848a8054e77ce177989"
+    },
+    {
+      "filename": "public/images/uranus.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_uranus.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 13396,
+      "sha256": "1a8094d07290628e43dd15cddb41fe42246118c4c406954a616b63ca7069f758"
+    },
+    {
+      "filename": "public/textures/neptune.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_neptune.jpg",
+      "creator": "Solar System Scope",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Resized from 2048 to 1536 pixels wide; WebP encoding.",
+      "verified": "2026-10-17",
+      "bytes": 11124,
+      "sha256": "70ba906f6151491b9da46425fd44417865c2f0a2fe7ff604f9ab9474808e0850"
+    },
+    {
+      "filename": "public/images/neptune.webp",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/download/2k_neptune.jpg",
+      "creator": "Solar System Scope; projection by AFTERLIGHT",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Solar System Scope (CC BY 4.0); rendered portraits are illustrations, not spacecraft photographs.",
+      "modifications": "Orthographic sphere projection with illustrative lighting and artistic orientation; transparent WebP. Saturn adds schematic rings using the separately credited ring strip.",
+      "verified": "2026-10-17",
+      "bytes": 15520,
+      "sha256": "fbdd78ed1a0fce4d5ac0e78ce5f9553e523df9a8a243972abd929fd4da981b4f"
+    },
+    {
+      "filename": "public/fonts/instrument-serif.woff",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+      "creator": "Instrument Serif Project Authors",
+      "license": "SIL Open Font License 1.1",
+      "attribution": "License and copyright retained in public/licenses/instrumentserif-OFL.txt",
+      "modifications": "Latin + punctuation subset, converted to WOFF.",
+      "verified": "2026-10-17",
+      "bytes": 28296,
+      "sha256": "66a8d78f164af291a9ccc32788f4ec6d0702034fdbca8fbc73574bc81bedb627"
+    },
+    {
+      "filename": "public/fonts/instrument-serif-italic.woff",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+      "creator": "Instrument Serif Project Authors",
+      "license": "SIL Open Font License 1.1",
+      "attribution": "License and copyright retained in public/licenses/instrumentserif-OFL.txt",
+      "modifications": "Latin + punctuation subset, converted to WOFF.",
+      "verified": "2026-10-17",
+      "bytes": 29532,
+      "sha256": "21a57ba13a92ec15d1642b3d23596b1fd607c34050c34fa9bd719d906d2c570e"
+    },
+    {
+      "filename": "public/fonts/dm-sans.woff",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+      "creator": "DM Sans Project Authors",
+      "license": "SIL Open Font License 1.1",
+      "attribution": "License and copyright retained in public/licenses/dmsans-OFL.txt",
+      "modifications": "Latin + punctuation subset, converted to WOFF.",
+      "verified": "2026-10-17",
+      "bytes": 84248,
+      "sha256": "8a069c18900d245225b5c2a55b25240f1a82f04d468f60933089c9e744bdecf5"
+    },
+    {
+      "filename": "public/fonts/ibm-plex-mono.woff",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "creator": "IBM Corp.",
+      "license": "SIL Open Font License 1.1",
+      "attribution": "License and copyright retained in public/licenses/ibmplexmono-OFL.txt",
+      "modifications": "Latin + punctuation subset, converted to WOFF. Internal family renamed AFTERLIGHT Journal Mono to respect IBM's Reserved Font Name Plex; original attribution and license retained.",
+      "verified": "2026-10-17",
+      "bytes": 23476,
+      "sha256": "5aca3ae90d2a23c8d9425044abb8901d4562d2184f58f61a693c43e3ad024c4f"
+    },
+    {
+      "filename": "public/images/social.jpg",
+      "sourceUrl": "https://www.solarsystemscope.com/textures/",
+      "creator": "AFTERLIGHT / Solar System Scope textures",
+      "license": "CC BY 4.0 \u2014 https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Saturn texture and rings: Solar System Scope (CC BY 4.0). Type: locally credited OFL fonts.",
+      "modifications": "Composited derived planetary portrait and AFTERLIGHT typography using Instrument Serif, DM Sans and IBM Plex Mono; JPEG.",
+      "verified": "2026-10-17",
+      "bytes": 57880,
+      "sha256": "980cb4125e36871c9acd6bc57b2299635018662e86e30b9dc13ded0427a2ab89"
+    }
+  ],
+  "originalArtwork": [
+    {
+      "filename": "public/icon.svg",
+      "sourceUrl": null,
+      "creator": "AFTERLIGHT",
+      "license": "Original vector artwork created for this project; no third-party imagery",
+      "attribution": "None required",
+      "modifications": "Original observatory symbol or schematic encounter diagram. Not a physical trajectory."
+    },
+    {
+      "filename": "src/components/mission-trajectory.tsx",
+      "sourceUrl": null,
+      "creator": "AFTERLIGHT",
+      "license": "Original vector artwork created for this project; no third-party imagery",
+      "attribution": "None required",
+      "modifications": "Original observatory symbol or schematic encounter diagram. Not a physical trajectory."
+    },
+    {
+      "filename": "src/components/site-header.tsx",
+      "sourceUrl": null,
+      "creator": "AFTERLIGHT",
+      "license": "Original vector artwork created for this project; no third-party imagery",
+      "attribution": "None required",
+      "modifications": "Original observatory symbol or schematic encounter diagram. Not a physical trajectory."
+    }
+  ],
+  "iconLibrary": {
+    "name": "Lucide",
+    "license": "ISC",
+    "sourceUrl": "https://lucide.dev/license",
+    "localLicense": "node_modules/lucide-react/LICENSE"
+  }
+}

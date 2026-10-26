@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-18T03:34:10.950Z",
+  "note": "HTTP availability only; factual review recorded in SOURCES.md",
+  "results": [
+    {
+      "url": "https://science.nasa.gov/mission/cassini/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/cassini/"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html",
+      "status": 200,
+      "effective": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "status": 200,
+      "effective": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+    },
+    {
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens_overview",
+      "status": 200,
+      "effective": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens_overview"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/voyager/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/voyager/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/cassini/quick-facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/cassini/quick-facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mariner-10/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/mariner-10/"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasas-perseverance-rover-collects-first-mars-rock-sample/",
+      "status": 200,
+      "effective": "https://www.nasa.gov/news-release/nasas-perseverance-rover-collects-first-mars-rock-sample/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/messenger/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/messenger/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasas-juno-spacecraft-in-orbit-around-mighty-jupiter/",
+      "status": 200,
+      "effective": "https://www.nasa.gov/news-release/nasas-juno-spacecraft-in-orbit-around-mighty-jupiter/"
+    },
+    {
+      "url": "https://pds-imaging.jpl.nasa.gov/portal/magellan_mission.html",
+      "status": 200,
+      "effective": "https://pds-imaging.jpl.nasa.gov/portal/magellan_mission.html"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/magellan/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/magellan/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/juno/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/juno/"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/new-horizons/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mission/new-horizons/"
+    },
+    {
+      "url": "https://science.nasa.gov/venus/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/saturn/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/uranus/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "url": "https://science.nasa.gov/neptune/facts/",
+      "status": 200,
+      "effective": "https://science.nasa.gov/neptune/neptune-facts/"
+    }
+  ]
+}

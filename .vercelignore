@@ -1,0 +1,7 @@
+artifacts/
+test-results/
+playwright-report/
+*.md
+!public/**/*.md
+.next/
+node_modules/

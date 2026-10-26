@@ -1,0 +1,38 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/atlas?view=list&world=saturn",
+    "violations": []
+  },
+  {
+    "route": "/compare?worlds=earth,mars,neptune",
+    "violations": []
+  },
+  {
+    "route": "/missions",
+    "violations": []
+  },
+  {
+    "route": "/missions/cassini-huygens",
+    "violations": []
+  },
+  {
+    "route": "/worlds/venus",
+    "violations": []
+  },
+  {
+    "route": "/expedition",
+    "violations": []
+  },
+  {
+    "route": "/about",
+    "violations": []
+  },
+  {
+    "route": "preferences dialog",
+    "violations": []
+  }
+]

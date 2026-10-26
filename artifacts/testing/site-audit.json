@@ -1,0 +1,448 @@
+{
+  "checkedAt": "2026-10-18T04:11:52.024Z",
+  "browser": "155.0.8059.80",
+  "mode": "production",
+  "routeResults": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "AFTERLIGHT — Find your next world",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/atlas?world=saturn",
+      "status": 200,
+      "title": "The atlas | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/atlas?view=list",
+      "status": 200,
+      "title": "The atlas | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/compare?worlds=earth,mars,neptune",
+      "status": 200,
+      "title": "Compare worlds | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions",
+      "status": 200,
+      "title": "Mission archive | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/expedition",
+      "status": 200,
+      "title": "My expedition | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "About, sources & perspective | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/mercury",
+      "status": 200,
+      "title": "Mercury — Three rotations for every two orbits. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/venus",
+      "status": 200,
+      "title": "Venus — A rotation lasts longer than its year. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/earth",
+      "status": 200,
+      "title": "Earth — The only world known to support life. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/mars",
+      "status": 200,
+      "title": "Mars — A cold desert with a wetter past. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/jupiter",
+      "status": 200,
+      "title": "Jupiter — The largest planet. A rotation under ten hours. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/saturn",
+      "status": 200,
+      "title": "Saturn — A world encircled by countless pieces of ice. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/uranus",
+      "status": 200,
+      "title": "Uranus — An ice giant tipped almost onto its side. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/worlds/neptune",
+      "status": 200,
+      "title": "Neptune — A distant world driven by powerful winds. | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/mariner-10",
+      "status": 200,
+      "title": "Mariner 10 — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/messenger",
+      "status": 200,
+      "title": "MESSENGER — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/magellan",
+      "status": 200,
+      "title": "Magellan — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/voyager-2",
+      "status": 200,
+      "title": "Voyager 2 — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/cassini-huygens",
+      "status": 200,
+      "title": "Cassini–Huygens — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/new-horizons",
+      "status": 200,
+      "title": "New Horizons — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/juno",
+      "status": 200,
+      "title": "Juno — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    },
+    {
+      "route": "/missions/perseverance",
+      "status": 200,
+      "title": "Perseverance — mission story | AFTERLIGHT",
+      "h1s": 1,
+      "brokenImages": []
+    }
+  ],
+  "linkResults": [
+    {
+      "url": "http://127.0.0.1:4324/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/about",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/expedition",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=saturn",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?view=list",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/mercury",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/venus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/earth",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/mars",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/jupiter",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/saturn",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/uranus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/neptune",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,jupiter",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/cassini-huygens",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/asset-manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/saturn?from=%2Fatlas%3Fworld%3Dsaturn",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/mercury?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/venus?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/earth?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/mars?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/jupiter?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/saturn?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/uranus?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/worlds/neptune?from=%2Fatlas%3Fview%3Dlist",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,mars,neptune",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/perseverance?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/juno?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/new-horizons?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/messenger?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/cassini-huygens?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/magellan?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/voyager-2?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/mariner-10?from=%2Fmissions",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/licenses/instrumentserif-OFL.txt",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/licenses/dmsans-OFL.txt",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/licenses/ibmplexmono-OFL.txt",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=mercury",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,mercury",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/mariner-10",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/messenger",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=venus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,venus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/magellan",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=earth",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,mars",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=jupiter,earth",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=mars",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/perseverance",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=jupiter",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/voyager-2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/juno",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/missions/new-horizons",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,saturn",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=uranus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,uranus",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/atlas?world=neptune",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4324/compare?worlds=earth,neptune",
+      "status": 200
+    }
+  ],
+  "metadata": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "status": 200,
+      "contentType": "application/manifest+json"
+    },
+    {
+      "path": "/asset-manifest.json",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8"
+    },
+    {
+      "path": "/icon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "/images/social.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}
